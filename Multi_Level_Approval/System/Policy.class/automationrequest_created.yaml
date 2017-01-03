@@ -1,0 +1,14 @@
+---
+object_type: instance
+version: 1.0
+object:
+  attributes:
+    display_name: 
+    name: AutomationRequest_created
+    inherits: 
+    description: 
+  fields:
+  - rel5:
+      value: "/Automation/Profile/${/#user.normalized_ldap_group}#get_auto_approval_state_machine"
+  - rel6:
+      value: "/Automation/StateMachines/${/#state_machine}/Default"

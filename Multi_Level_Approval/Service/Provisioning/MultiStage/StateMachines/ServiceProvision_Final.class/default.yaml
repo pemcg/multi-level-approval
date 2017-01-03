@@ -1,0 +1,16 @@
+---
+object_type: instance
+version: 1.0
+object:
+  attributes:
+    display_name: 
+    name: default
+    inherits: 
+    description: 
+  fields:
+  - provision:
+      value: METHOD::build_vm_provision_request
+  - checkprovisioned:
+      value: METHOD::check_progress
+  - post1:
+      value: METHOD::add_to_service
